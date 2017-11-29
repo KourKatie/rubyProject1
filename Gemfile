@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+git_source(:github) {|rubyProject1| "https://github.com/rubyProject1" }
 
 # Specify your gem's dependencies in untitled2.gemspec
 gemspec
+
+gem 'MovieRentals'
